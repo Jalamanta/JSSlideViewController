@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CF2AA923161421FE00FB72D6 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CF2AA924161421FE00FB72D6 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				CF2AA9291614223600FB72D6 /* ShellScript */,
+			);
+			dependencies = (
+				CF2AA9281614221F00FB72D6 /* PBXTargetDependency */,
+				CF4709CC161ABAC90048C3EC /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8B3159DD1AA18E5400E2FFF3 /* JSSlideViewController-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8B3159DC1AA18E5400E2FFF3 /* JSSlideViewController-Prefix.pch */; };
+		8B3159E41AA18E6F00E2FFF3 /* JSUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3159E01AA18E6F00E2FFF3 /* JSUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3159E51AA18E6F00E2FFF3 /* JSUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3159E11AA18E6F00E2FFF3 /* JSUtilities.m */; };
+		8B3159E61AA18E6F00E2FFF3 /* JSUtilsC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3159E21AA18E6F00E2FFF3 /* JSUtilsC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3159E71AA18E6F00E2FFF3 /* JSUtilsC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3159E31AA18E6F00E2FFF3 /* JSUtilsC.m */; };
+		8B3159F01AA18F3F00E2FFF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B3159E91AA18F3F00E2FFF3 /* InfoPlist.strings */; };
+		8B315A0A1AA1974D00E2FFF3 /* JSSlideMenuDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3159FA1AA1974D00E2FFF3 /* JSSlideMenuDataSource.h */; };
+		8B315A0B1AA1974D00E2FFF3 /* JSSlideMenuDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3159FB1AA1974D00E2FFF3 /* JSSlideMenuDataSource.m */; };
+		8B315A0C1AA1974D00E2FFF3 /* JSSlideMenuViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3159FC1AA1974D00E2FFF3 /* JSSlideMenuViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A0D1AA1974D00E2FFF3 /* JSSlideMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3159FD1AA1974D00E2FFF3 /* JSSlideMenuViewCell.m */; };
+		8B315A0E1AA1974D00E2FFF3 /* JSSlideMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3159FE1AA1974D00E2FFF3 /* JSSlideMenuViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A0F1AA1974D00E2FFF3 /* JSSlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3159FF1AA1974D00E2FFF3 /* JSSlideMenuViewController.m */; };
+		8B315A101AA1974D00E2FFF3 /* JSDraggableSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A011AA1974D00E2FFF3 /* JSDraggableSlideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A111AA1974D00E2FFF3 /* JSDraggableSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A021AA1974D00E2FFF3 /* JSDraggableSlideView.m */; };
+		8B315A121AA1974D00E2FFF3 /* JSSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A031AA1974D00E2FFF3 /* JSSlideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A131AA1974D00E2FFF3 /* JSSlideViewButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A041AA1974D00E2FFF3 /* JSSlideViewButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A141AA1974D00E2FFF3 /* JSSlideViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A051AA1974D00E2FFF3 /* JSSlideViewButton.m */; };
+		8B315A151AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A061AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A161AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A071AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.m */; };
+		8B315A171AA1974D00E2FFF3 /* JSSlideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A081AA1974D00E2FFF3 /* JSSlideViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A181AA1974D00E2FFF3 /* JSSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A091AA1974D00E2FFF3 /* JSSlideViewController.m */; };
+		8B315A1B1AA1990500E2FFF3 /* JSRectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A191AA1990500E2FFF3 /* JSRectUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A1C1AA1990500E2FFF3 /* JSRectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A1A1AA1990500E2FFF3 /* JSRectUtils.m */; };
+		8B315A251AA1998E00E2FFF3 /* UIView+Center.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A1F1AA1998E00E2FFF3 /* UIView+Center.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A261AA1998E00E2FFF3 /* UIView+Center.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A201AA1998E00E2FFF3 /* UIView+Center.m */; };
+		8B315A291AA1998E00E2FFF3 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A231AA1998E00E2FFF3 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A2A1AA1998E00E2FFF3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A241AA1998E00E2FFF3 /* UIView+Frame.m */; };
+		8B315A2E1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A2C1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A2F1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A2D1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.m */; };
+		8B315A321AA19E3500E2FFF3 /* UIView+FindViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B315A301AA19E3500E2FFF3 /* UIView+FindViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B315A331AA19E3500E2FFF3 /* UIView+FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B315A311AA19E3500E2FFF3 /* UIView+FindViewController.m */; };
+		8B491A511AA44303002692DA /* UIView+Easing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B491A4F1AA44303002692DA /* UIView+Easing.h */; };
+		8B491A521AA44303002692DA /* UIView+Easing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B491A501AA44303002692DA /* UIView+Easing.m */; };
+		CF02599016BF76FA00B1555D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF02598F16BF76FA00B1555D /* SystemConfiguration.framework */; };
+		CF1F08151619572A0049E0A0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1F08141619572A0049E0A0 /* CoreFoundation.framework */; };
+		CFFAF46E16140A8C00F566CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFAF46D16140A8C00F566CB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2AA9271614221F00FB72D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFAF46116140A8C00F566CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFAF46916140A8C00F566CB;
+			remoteInfo = JSSlideViewController;
+		};
+		CF4709CB161ABAC90048C3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFAF46116140A8C00F566CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1F08121619572A0049E0A0;
+			remoteInfo = JSSlideViewControllerResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B3159DC1AA18E5400E2FFF3 /* JSSlideViewController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSSlideViewController-Prefix.pch"; path = "JSSlideViewController/JSSlideViewController-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8B3159E01AA18E6F00E2FFF3 /* JSUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUtilities.h; sourceTree = "<group>"; };
+		8B3159E11AA18E6F00E2FFF3 /* JSUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUtilities.m; sourceTree = "<group>"; };
+		8B3159E21AA18E6F00E2FFF3 /* JSUtilsC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUtilsC.h; sourceTree = "<group>"; };
+		8B3159E31AA18E6F00E2FFF3 /* JSUtilsC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUtilsC.m; sourceTree = "<group>"; };
+		8B3159EA1AA18F3F00E2FFF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B3159EE1AA18F3F00E2FFF3 /* JSSlideViewControllerResources-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JSSlideViewControllerResources-Info.plist"; sourceTree = "<group>"; };
+		8B3159EF1AA18F3F00E2FFF3 /* JSSlideViewControllerResources-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSSlideViewControllerResources-Prefix.pch"; sourceTree = "<group>"; };
+		8B3159FA1AA1974D00E2FFF3 /* JSSlideMenuDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSlideMenuDataSource.h; sourceTree = "<group>"; };
+		8B3159FB1AA1974D00E2FFF3 /* JSSlideMenuDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSlideMenuDataSource.m; sourceTree = "<group>"; };
+		8B3159FC1AA1974D00E2FFF3 /* JSSlideMenuViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSlideMenuViewCell.h; sourceTree = "<group>"; };
+		8B3159FD1AA1974D00E2FFF3 /* JSSlideMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSlideMenuViewCell.m; sourceTree = "<group>"; };
+		8B3159FE1AA1974D00E2FFF3 /* JSSlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSlideMenuViewController.h; sourceTree = "<group>"; };
+		8B3159FF1AA1974D00E2FFF3 /* JSSlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSlideMenuViewController.m; sourceTree = "<group>"; };
+		8B315A011AA1974D00E2FFF3 /* JSDraggableSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDraggableSlideView.h; sourceTree = "<group>"; };
+		8B315A021AA1974D00E2FFF3 /* JSDraggableSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDraggableSlideView.m; sourceTree = "<group>"; };
+		8B315A031AA1974D00E2FFF3 /* JSSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSlideView.h; sourceTree = "<group>"; };
+		8B315A041AA1974D00E2FFF3 /* JSSlideViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSlideViewButton.h; sourceTree = "<group>"; };
+		8B315A051AA1974D00E2FFF3 /* JSSlideViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSlideViewButton.m; sourceTree = "<group>"; };
+		8B315A061AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSlideViewChildNavigationController.h; sourceTree = "<group>"; };
+		8B315A071AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSlideViewChildNavigationController.m; sourceTree = "<group>"; };
+		8B315A081AA1974D00E2FFF3 /* JSSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSlideViewController.h; sourceTree = "<group>"; };
+		8B315A091AA1974D00E2FFF3 /* JSSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSlideViewController.m; sourceTree = "<group>"; };
+		8B315A191AA1990500E2FFF3 /* JSRectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRectUtils.h; sourceTree = "<group>"; };
+		8B315A1A1AA1990500E2FFF3 /* JSRectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRectUtils.m; sourceTree = "<group>"; };
+		8B315A1F1AA1998E00E2FFF3 /* UIView+Center.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Center.h"; sourceTree = "<group>"; };
+		8B315A201AA1998E00E2FFF3 /* UIView+Center.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Center.m"; sourceTree = "<group>"; };
+		8B315A231AA1998E00E2FFF3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8B315A241AA1998E00E2FFF3 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8B315A2C1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+iOS7Spacing.h"; sourceTree = "<group>"; };
+		8B315A2D1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+iOS7Spacing.m"; sourceTree = "<group>"; };
+		8B315A301AA19E3500E2FFF3 /* UIView+FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindViewController.h"; sourceTree = "<group>"; };
+		8B315A311AA19E3500E2FFF3 /* UIView+FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindViewController.m"; sourceTree = "<group>"; };
+		8B491A4F1AA44303002692DA /* UIView+Easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Easing.h"; sourceTree = "<group>"; };
+		8B491A501AA44303002692DA /* UIView+Easing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Easing.m"; sourceTree = "<group>"; };
+		CF02598F16BF76FA00B1555D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF1F08131619572A0049E0A0 /* JSSlideViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSSlideViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1F08141619572A0049E0A0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CFFAF46A16140A8C00F566CB /* libJSSlideViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSSlideViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFAF46D16140A8C00F566CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1F08101619572A0049E0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1F08151619572A0049E0A0 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFAF46716140A8C00F566CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF02599016BF76FA00B1555D /* SystemConfiguration.framework in Frameworks */,
+				CFFAF46E16140A8C00F566CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B3159C31AA18C7E00E2FFF3 /* JSSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B315A341AA19ED500E2FFF3 /* External */,
+				8B3159DE1AA18E6F00E2FFF3 /* Classes */,
+				8B3159C41AA18C7E00E2FFF3 /* Supporting Files */,
+			);
+			path = JSSlideViewController;
+			sourceTree = "<group>";
+		};
+		8B3159C41AA18C7E00E2FFF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B3159DC1AA18E5400E2FFF3 /* JSSlideViewController-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B3159DE1AA18E6F00E2FFF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B315A1D1AA1998E00E2FFF3 /* Categories */,
+				8B3159DF1AA18E6F00E2FFF3 /* Utilities */,
+				8B315A001AA1974D00E2FFF3 /* JSSlideView */,
+				8B3159F91AA1974D00E2FFF3 /* JSSlideMenuView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B3159DF1AA18E6F00E2FFF3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B315A191AA1990500E2FFF3 /* JSRectUtils.h */,
+				8B315A1A1AA1990500E2FFF3 /* JSRectUtils.m */,
+				8B3159E01AA18E6F00E2FFF3 /* JSUtilities.h */,
+				8B3159E11AA18E6F00E2FFF3 /* JSUtilities.m */,
+				8B3159E21AA18E6F00E2FFF3 /* JSUtilsC.h */,
+				8B3159E31AA18E6F00E2FFF3 /* JSUtilsC.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8B3159E81AA18F3F00E2FFF3 /* JSSlideViewControllerResources */ = {
+			isa = PBXGroup;
+			children = (
+				8B3159E91AA18F3F00E2FFF3 /* InfoPlist.strings */,
+				8B3159EB1AA18F3F00E2FFF3 /* Images */,
+				8B3159EE1AA18F3F00E2FFF3 /* JSSlideViewControllerResources-Info.plist */,
+				8B3159EF1AA18F3F00E2FFF3 /* JSSlideViewControllerResources-Prefix.pch */,
+			);
+			path = JSSlideViewControllerResources;
+			sourceTree = "<group>";
+		};
+		8B3159EB1AA18F3F00E2FFF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8B3159F91AA1974D00E2FFF3 /* JSSlideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				8B3159FA1AA1974D00E2FFF3 /* JSSlideMenuDataSource.h */,
+				8B3159FB1AA1974D00E2FFF3 /* JSSlideMenuDataSource.m */,
+				8B3159FC1AA1974D00E2FFF3 /* JSSlideMenuViewCell.h */,
+				8B3159FD1AA1974D00E2FFF3 /* JSSlideMenuViewCell.m */,
+				8B3159FE1AA1974D00E2FFF3 /* JSSlideMenuViewController.h */,
+				8B3159FF1AA1974D00E2FFF3 /* JSSlideMenuViewController.m */,
+			);
+			path = JSSlideMenuView;
+			sourceTree = "<group>";
+		};
+		8B315A001AA1974D00E2FFF3 /* JSSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				8B315A011AA1974D00E2FFF3 /* JSDraggableSlideView.h */,
+				8B315A021AA1974D00E2FFF3 /* JSDraggableSlideView.m */,
+				8B315A031AA1974D00E2FFF3 /* JSSlideView.h */,
+				8B315A041AA1974D00E2FFF3 /* JSSlideViewButton.h */,
+				8B315A051AA1974D00E2FFF3 /* JSSlideViewButton.m */,
+				8B315A061AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.h */,
+				8B315A071AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.m */,
+				8B315A081AA1974D00E2FFF3 /* JSSlideViewController.h */,
+				8B315A091AA1974D00E2FFF3 /* JSSlideViewController.m */,
+			);
+			path = JSSlideView;
+			sourceTree = "<group>";
+		};
+		8B315A1D1AA1998E00E2FFF3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8B315A1E1AA1998E00E2FFF3 /* UIView */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8B315A1E1AA1998E00E2FFF3 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8B315A1F1AA1998E00E2FFF3 /* UIView+Center.h */,
+				8B315A201AA1998E00E2FFF3 /* UIView+Center.m */,
+				8B315A231AA1998E00E2FFF3 /* UIView+Frame.h */,
+				8B315A241AA1998E00E2FFF3 /* UIView+Frame.m */,
+				8B315A301AA19E3500E2FFF3 /* UIView+FindViewController.h */,
+				8B315A311AA19E3500E2FFF3 /* UIView+FindViewController.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		8B315A2B1AA19BD400E2FFF3 /* UINavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				8B315A2C1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.h */,
+				8B315A2D1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.m */,
+			);
+			name = UINavigationItem;
+			path = ../Classes/Categories/UINavigationItem;
+			sourceTree = "<group>";
+		};
+		8B315A341AA19ED500E2FFF3 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8B491A4E1AA44303002692DA /* Easing */,
+				8B315A2B1AA19BD400E2FFF3 /* UINavigationItem */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		8B491A4E1AA44303002692DA /* Easing */ = {
+			isa = PBXGroup;
+			children = (
+				8B491A4F1AA44303002692DA /* UIView+Easing.h */,
+				8B491A501AA44303002692DA /* UIView+Easing.m */,
+			);
+			path = Easing;
+			sourceTree = "<group>";
+		};
+		CFFAF45F16140A8C00F566CB = {
+			isa = PBXGroup;
+			children = (
+				8B3159C31AA18C7E00E2FFF3 /* JSSlideViewController */,
+				8B3159E81AA18F3F00E2FFF3 /* JSSlideViewControllerResources */,
+				CFFAF46C16140A8C00F566CB /* Frameworks */,
+				CFFAF46B16140A8C00F566CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFAF46B16140A8C00F566CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFAF46A16140A8C00F566CB /* libJSSlideViewController.a */,
+				CF1F08131619572A0049E0A0 /* JSSlideViewController.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFAF46C16140A8C00F566CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF02598F16BF76FA00B1555D /* SystemConfiguration.framework */,
+				CFFAF46D16140A8C00F566CB /* Foundation.framework */,
+				CF1F08141619572A0049E0A0 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF1EEECF161ABA1E001AF77C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B315A321AA19E3500E2FFF3 /* UIView+FindViewController.h in Headers */,
+				8B315A2E1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.h in Headers */,
+				8B315A291AA1998E00E2FFF3 /* UIView+Frame.h in Headers */,
+				8B315A251AA1998E00E2FFF3 /* UIView+Center.h in Headers */,
+				8B315A1B1AA1990500E2FFF3 /* JSRectUtils.h in Headers */,
+				8B491A511AA44303002692DA /* UIView+Easing.h in Headers */,
+				8B315A151AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.h in Headers */,
+				8B315A121AA1974D00E2FFF3 /* JSSlideView.h in Headers */,
+				8B315A101AA1974D00E2FFF3 /* JSDraggableSlideView.h in Headers */,
+				8B315A171AA1974D00E2FFF3 /* JSSlideViewController.h in Headers */,
+				8B315A0C1AA1974D00E2FFF3 /* JSSlideMenuViewCell.h in Headers */,
+				8B315A0E1AA1974D00E2FFF3 /* JSSlideMenuViewController.h in Headers */,
+				8B315A131AA1974D00E2FFF3 /* JSSlideViewButton.h in Headers */,
+				8B3159E61AA18E6F00E2FFF3 /* JSUtilsC.h in Headers */,
+				8B3159E41AA18E6F00E2FFF3 /* JSUtilities.h in Headers */,
+				8B3159DD1AA18E5400E2FFF3 /* JSSlideViewController-Prefix.pch in Headers */,
+				8B315A0A1AA1974D00E2FFF3 /* JSSlideMenuDataSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF1F08121619572A0049E0A0 /* JSSlideViewControllerResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1F081F1619572A0049E0A0 /* Build configuration list for PBXNativeTarget "JSSlideViewControllerResources" */;
+			buildPhases = (
+				CF1F080F1619572A0049E0A0 /* Sources */,
+				CF1F08101619572A0049E0A0 /* Frameworks */,
+				CF1F08111619572A0049E0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSSlideViewControllerResources;
+			productName = JSSlideViewControllerResources;
+			productReference = CF1F08131619572A0049E0A0 /* JSSlideViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CFFAF46916140A8C00F566CB /* JSSlideViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFAF47816140A8C00F566CB /* Build configuration list for PBXNativeTarget "JSSlideViewController" */;
+			buildPhases = (
+				CFFAF46616140A8C00F566CB /* Sources */,
+				CFFAF46716140A8C00F566CB /* Frameworks */,
+				CFFAF47E16141D5E00F566CB /* Prepare Framework */,
+				CF1EEECF161ABA1E001AF77C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSSlideViewController;
+			productName = JSSlideViewController;
+			productReference = CFFAF46A16140A8C00F566CB /* libJSSlideViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFAF46116140A8C00F566CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jalamanta;
+			};
+			buildConfigurationList = CFFAF46416140A8C00F566CB /* Build configuration list for PBXProject "JSSlideViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFFAF45F16140A8C00F566CB;
+			productRefGroup = CFFAF46B16140A8C00F566CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFAF46916140A8C00F566CB /* JSSlideViewController */,
+				CF2AA923161421FE00FB72D6 /* Framework */,
+				CF1F08121619572A0049E0A0 /* JSSlideViewControllerResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1F08111619572A0049E0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3159F01AA18F3F00E2FFF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF2AA9291614223600FB72D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"";
+		};
+		CFFAF47E16141D5E00F566CB /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n#mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}/Headers\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\necho \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\necho \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\necho \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\necho \"${PUBLIC_HEADERS_FOLDER_PATH}/\"\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n#/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1F080F1619572A0049E0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFAF46616140A8C00F566CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B315A2F1AA19BD400E2FFF3 /* UINavigationItem+iOS7Spacing.m in Sources */,
+				8B315A261AA1998E00E2FFF3 /* UIView+Center.m in Sources */,
+				8B3159E71AA18E6F00E2FFF3 /* JSUtilsC.m in Sources */,
+				8B315A181AA1974D00E2FFF3 /* JSSlideViewController.m in Sources */,
+				8B315A111AA1974D00E2FFF3 /* JSDraggableSlideView.m in Sources */,
+				8B315A161AA1974D00E2FFF3 /* JSSlideViewChildNavigationController.m in Sources */,
+				8B315A2A1AA1998E00E2FFF3 /* UIView+Frame.m in Sources */,
+				8B3159E51AA18E6F00E2FFF3 /* JSUtilities.m in Sources */,
+				8B315A0D1AA1974D00E2FFF3 /* JSSlideMenuViewCell.m in Sources */,
+				8B315A331AA19E3500E2FFF3 /* UIView+FindViewController.m in Sources */,
+				8B315A1C1AA1990500E2FFF3 /* JSRectUtils.m in Sources */,
+				8B315A141AA1974D00E2FFF3 /* JSSlideViewButton.m in Sources */,
+				8B315A0F1AA1974D00E2FFF3 /* JSSlideMenuViewController.m in Sources */,
+				8B491A521AA44303002692DA /* UIView+Easing.m in Sources */,
+				8B315A0B1AA1974D00E2FFF3 /* JSSlideMenuDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2AA9281614221F00FB72D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFAF46916140A8C00F566CB /* JSSlideViewController */;
+			targetProxy = CF2AA9271614221F00FB72D6 /* PBXContainerItemProxy */;
+		};
+		CF4709CC161ABAC90048C3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1F08121619572A0049E0A0 /* JSSlideViewControllerResources */;
+			targetProxy = CF4709CB161ABAC90048C3EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B3159E91AA18F3F00E2FFF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3159EA1AA18F3F00E2FFF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1F081D1619572A0049E0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSlideViewControllerResources/JSSlideViewControllerResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "JSSlideViewControllerResources/JSSlideViewControllerResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = JSSlideViewController;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CF1F081E1619572A0049E0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSlideViewControllerResources/JSSlideViewControllerResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "JSSlideViewControllerResources/JSSlideViewControllerResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = JSSlideViewController;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CF2AA925161421FE00FB72D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-load-all",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF2AA926161421FE00FB72D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-load-all",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFFAF47616140A8C00F566CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFFAF47716140A8C00F566CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFAF47916140A8C00F566CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/JSSlideViewController.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSlideViewController/JSSlideViewController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = JSSlideViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME).framework/Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		CFFAF47A16140A8C00F566CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/JSSlideViewController.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSlideViewController/JSSlideViewController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = JSSlideViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME).framework/Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1F081F1619572A0049E0A0 /* Build configuration list for PBXNativeTarget "JSSlideViewControllerResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1F081D1619572A0049E0A0 /* Debug */,
+				CF1F081E1619572A0049E0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2AA924161421FE00FB72D6 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2AA925161421FE00FB72D6 /* Debug */,
+				CF2AA926161421FE00FB72D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFAF46416140A8C00F566CB /* Build configuration list for PBXProject "JSSlideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFAF47616140A8C00F566CB /* Debug */,
+				CFFAF47716140A8C00F566CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFAF47816140A8C00F566CB /* Build configuration list for PBXNativeTarget "JSSlideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFAF47916140A8C00F566CB /* Debug */,
+				CFFAF47A16140A8C00F566CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFAF46116140A8C00F566CB /* Project object */;
+}
